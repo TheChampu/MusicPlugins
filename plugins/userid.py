@@ -97,5 +97,4 @@ Get message ID, your ID, user's ID (if provided), and chat ID.
 
 **Examples:**
 - `/id username`
-- `/id 123456789`
 """
