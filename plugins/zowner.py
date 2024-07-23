@@ -38,12 +38,12 @@ async def start(_, msg):
 
 ],
 [
-              InlineKeyboardButton("ᴍᴜsɪᴄ", url=f"https://github.com/ChampuXD/ChampuXMusic"),
-              InlineKeyboardButton("sᴛʀɪɴɢ", url=f"https://github.com/ChampuXD/ChampuXString"),
+              InlineKeyboardButton("ᴍᴜsɪᴄ", url=f"https://github.com/ChampuXD/ChampuMusic"),
+              InlineKeyboardButton("ᴘʟᴜɢɪɴs", url=f"https://github.com/TheChampu/MusicPlugins"),
               ],
               [
               InlineKeyboardButton("ᴍᴀɴᴀɢᴍᴇɴᴛ", url=f"https://github.com/ChampuXD/ChampuXManagment"),
-InlineKeyboardButton("ᴄʜᴀᴛʙᴏᴛ", url=f"https://github.com/ChampuXD/ChatBot"),
+InlineKeyboardButton("sᴛʀɪɴɢ", url=f"https://github.com/ChampuXD/ChampuXString"),
 ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -64,7 +64,7 @@ async def clones(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "sᴏᴜʀᴄᴇ", url=f"https://github.com/ChampuXD/ChampuXMusic"
+                        "sᴏᴜʀᴄᴇ", url=f"https://github.com/ChampuXD/ChampuMusic"
                     )
                 ]
             ]
@@ -98,7 +98,7 @@ async def add_allbot(client, message):
     command_parts = message.text.split(" ")
     if len(command_parts) != 2:
         await message.reply(
-            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @TG_VC_BOT`**"
+            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @TheChampuBot`**"
         )
         return
 

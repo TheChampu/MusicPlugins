@@ -17,11 +17,9 @@ SPAM_THRESHOLD = 2
 SPAM_WINDOW_SECONDS = 5
 
 random_photo = [
-    "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
-    "https://telegra.ph/file/3ef2cc0ad2bc548bafb30.jpg",
-    "https://telegra.ph/file/a7d663cd2de689b811729.jpg",
-    "https://telegra.ph/file/6f19dc23847f5b005e922.jpg",
-    "https://telegra.ph/file/2973150dd62fd27a3a6ba.jpg",
+    "https://te.legra.ph/file/f6a2f71a516d8a5f88a29.jpg",
+    "https://telegra.ph/file/4d303296e4fac9a40ea07.jpg",
+    "https://telegra.ph/file/6f22d2d88f5b43ab9a805.jpg",
 ]
 
 # --------------------------------------------------------------------------------- #
@@ -71,7 +69,7 @@ async def get_userinfo_img(
 # --------------------------------------------------------------------------------- #
 
 bg_path = "ChampuXMusic/assets/userinfo.png"
-font_path = "ChampuXMusic/assets/hiroko.ttf"
+font_path = "ChampuXMusic/assets/font.ttf"
 
 # --------------------------------------------------------------------------------- #
 
